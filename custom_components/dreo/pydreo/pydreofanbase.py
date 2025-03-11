@@ -187,7 +187,7 @@ class PyDreoFanBase(PyDreoBaseDevice):
             if self._temperature > 50:
                 return TemperatureUnit.FAHRENHEIT
 
-        return TemperatureUnit.CELCIUS
+        return TemperatureUnit.CELSIUS
 
     @property
     def temperature_offset(self) -> bool:
